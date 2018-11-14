@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Anthony S.A Gradillas
+   Date: 11.13.18
+	
+   Filename: br_styles.css
+
+*/
+
+/* HTML and Body Styles */
+html {
+    background-image: url(br_paper.png);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(216, 173, 81);
+    margin: 0px auto;
+    width: 75%;
+    max-width: 1100px;
+    min-width: 720px;
+}
+
+/* Top Navigation Styles */
+body>header {
+    background-color: white;
+    height: 160px;
+    margin-bottom: 30px;
+    position: relative;
+}
