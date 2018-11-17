@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background-color: rgb(216, 173, 81);
+    background-color: rgb(134, 196, 238);
     margin: 0px auto;
     width: 75%;
     max-width: 1100px;
@@ -32,11 +32,11 @@ body {
 /* Top Navigation Styles */
 body>header a {
     border: outset 5px;
-    border-color: rgb(243, 173, 68);
+    border-color: rgb(68, 202, 243);
 }
 
 nav.toplinks ul li {
-    background-color: rgb(105, 86, 44);
+    background-color: rgb(44, 93, 105);
     display: block;
     font-size: 15px;
     float: left;
@@ -54,22 +54,24 @@ nav.toplinks a {
 
 nav.toplinks a:link,
 nav.toplinks a:visited {
-    color: rgb(231, 220, 189);
+    color: rgb(189, 221, 231);
 }
 
 nav.toplinks a:hover,
 nav.toplinks a:active {
-    background-color: rgb(148, 113, 65);
+    background-color: rgb(65, 117, 148);
 }
 
 /* Section Left Styles */
 section#left nav.vertical {
-    border: solid 2px rgb(170, 123, 20);
+    border: solid 2px rgb(20, 128, 170);
     border-radius: 25px;
     box-shadow: rgb(51, 51, 51) -10px 10px 50px;
 }
 
 section#left nav.vertical h1 {
-    border: dotted 2px rgb(170, 123, 20);
+    border: dotted 2px rgb(20, 115, 170);
     border-radius: 25px 25px 0px 0px;
 }
+
+/* Section Center Styles */

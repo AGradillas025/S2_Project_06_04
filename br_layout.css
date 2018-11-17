@@ -33,19 +33,19 @@ body>header img {
 section#left {
     margin-top: 25px;
     float: left;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     width: 20%;
 }
 
 section#left nav.vertical {
-    background-color: rgb(255, 242, 226);
+    background-color: rgb(226, 244, 255);
     margin: 0px auto 20px;
     width: 80%;
 }
 
 section#left nav.vertical h1 {
-    color: rgb(252, 228, 168);
-    background-color: rgb(170, 131, 22);
+    color: rgb(168, 232, 252);
+    background-color: rgb(100, 100, 100);
     font-size: 1.1em;
     height: 30px;
     line-height: 30px;
@@ -53,16 +53,21 @@ section#left nav.vertical h1 {
     width: 100%;
 }
 
-section#left nav.vertical ul li {
+section#left nav.vertical address {
     font-size: 12px;
     line-height: 2;
-    margin: 5px 0px 5px 20px;
+    margin: 5px 0px 5px 10px;
 }
 
-section#left nav.vertical ul li:last-of-type {
+section#left nav.vertical address:last-of-type {
     margin-bottom: 20px;
 }
 
-section#left nav.vertical a {
+section#left nav.vertical address {
     color: rgb(124, 124, 124);
+}
+
+/* Section Center Layout */
+body>aside {
+    color: black;
 }
